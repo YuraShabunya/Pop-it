@@ -1,0 +1,61 @@
+body {
+  font-family: Areal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(255, 191, 105);
+
+  position: relative;
+  height: 50vw;
+}
+
+section {
+  height: 5vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+main {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  background-color: #cbf3f0;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 3vw;
+  font-family: Arial Black;
+  font-size: 1.6vw;
+  font-weight: 800;
+}
+
+footer {
+  background-color: #333333;
+  height: 6vw;
+  width: 100%;
+
+  position: static;
+  bottom: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}

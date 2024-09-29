@@ -1,0 +1,95 @@
+@media (max-width: 800px) {
+  .goods-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  body {
+    font-size: 1.7vw;
+  }
+
+  .right-section {
+    min-width: 40vw;
+  }
+
+  main h3 {
+    font-size: 2.5vw;
+  }
+
+  .good button {
+    width: 10vw;
+    height: 4vw;
+    font-size: 1.3vw;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 2.5vw;
+  }
+
+  header {
+    height: 60vw;
+  }
+
+  section {
+    height: 8vw;
+  }
+
+  .left-section {
+    display: none;
+  }
+  
+  .right-section {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .header-button {
+    height: 8vw; 
+    text-align: center;
+  }
+
+  .title-text {
+    font-size: 2.5vw;
+  }
+
+  .title-box button {
+    width: 25vw;
+    height: 8vw;
+    font-size: 3vw;
+  }
+
+  .goods-grid {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+
+  main h3 {
+    font-size: 3.5vw;
+  }
+
+  .good-picture {
+    width: 150px;
+  }
+
+  .good p {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    font-size: 4vw;
+  }
+
+  .good button {
+    width: 20vw;
+    height: 6vw;
+    font-weight: 500;
+    font-size: 2.5vw;
+  }
+
+  footer {
+    height: 100%;
+  }
+
+  .footer-grid {
+    display: block;
+  }
+}

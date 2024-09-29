@@ -1,0 +1,20 @@
+.goods-grid {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 4vw;
+}
+
+.good button {
+  background-color: rgb(255, 191, 105);
+  border: none;
+  width: 8vw;
+  height: 3vw;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.good-picture {
+  width: 50%;
+}
